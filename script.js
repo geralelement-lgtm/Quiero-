@@ -100,7 +100,7 @@ function init() {
   setTheme(currentTheme);
 
   // LOGICA MODIFICADA: Retardo para mostrar la frase (5 segundos)
-  const initialAnimationDuration = 13000; // AUMENTADO A 5 SEGUNDOS
+  const initialAnimationDuration = 6000; // AUMENTADO A 5 SEGUNDOS
   setTimeout(() => {
     const overlayText = document.getElementById('overlay-text');
     if (overlayText) {
@@ -415,4 +415,5 @@ function animate() {
   }
 
   composer.render();
+
 }
